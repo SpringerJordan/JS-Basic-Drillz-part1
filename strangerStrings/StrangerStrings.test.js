@@ -48,7 +48,7 @@ test("return the last 3 characters of `input`", () => {
     let strangerStrings = new StrangerStrings();
     let input = 'Wutang';
 
-    let expected = "ang";
+    let expected = "Wut";
 
 
     // When
@@ -61,7 +61,7 @@ test("return the last 3 characters of `input`", () => {
 test("return the middle character of `inputValue`", () => {
     // Given
     let strangerStrings = new StrangerStrings();
-    let inputValue = 'MethodMan';
+    let input = 'MethodMan';
 
     let expected = "o";
 
